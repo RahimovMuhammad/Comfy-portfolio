@@ -1,7 +1,7 @@
 import {getData, getProduct } from "./dom.js";
 
 
-const API = "http://localhost:3000/data"
+const API = "https://66193930125e9bb9f2996981.mockapi.io/Comfy-portfolio/Comfy-portfolio"
 async function get() {
     try {
         let responce = await fetch(API);
