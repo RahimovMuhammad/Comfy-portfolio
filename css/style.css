@@ -1,0 +1,530 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: "charm";
+  src: url(/fonts/Charm-Bold.ttf);
+}
+
+
+@font-face {
+  font-family: "Montseart-Regular";
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montseart-SemiBold";
+  src: url(/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Montseart";
+  src: url(/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Montseart-Bold";
+  src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Montseart-Medium";
+  src: url(/fonts/Montserrat-Medium.ttf);
+}
+
+.all {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: url(/icons/Rectangle\ 37.png) no-repeat;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  transition: 0.5s;
+}
+
+.nav-section_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.nav-section_left li {
+  list-style: none;
+  font-family: "Montseart";
+  font-size: 20px;
+  margin-right: 54px;
+}
+
+.nav-section_left li:last-child {
+  margin-right: 0;
+}
+
+.nav-section_left ul {
+  display: flex;
+}
+
+.navbar-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 28px;
+  position: sticky;
+  top: 0;
+}
+
+.nav-section_left h2 {
+  font-family: "charm";
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.text-section-header h1 {
+  font-family: "charm";
+  font-weight: 700;
+  font-size: 86px;
+}
+
+.text-section-header h4 {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: "Montseart-Medium";
+  padding-bottom: 32px;
+}
+
+.text-section-header a {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 14px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: "Montseart";
+  text-decoration: none;
+}
+
+.text-section-header {
+  margin-top: 171px;
+}
+
+.count_basket {
+  position: absolute;
+  background-color: #ba5d2c;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  right: -12px;
+  top: 20px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 387px);
+  gap: 20px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.textInformCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textInformCard h4 {
+  color: #00000061;
+  font-size: 16px;
+  font-family: "Montseart-Bold";
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.textInformCard p {
+  color: #222222;
+  font-size: 16px;
+  font-family: "Montseart-Bold";
+}
+
+.top-section-main h1 {
+  color: #222222;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.top-section-main p {
+  color: #ba5d2c;
+  padding-right: 5px;
+}
+
+.main-section-one {
+  height: 690px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnProduct {
+  background-color: #ba5d2c;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: "Montseart-Bold";
+}
+
+.btn-section-one {
+  display: flex;
+  justify-content: center;
+  margin-top: 51.5px;
+}
+
+.sidebar-about {
+  top: 0;
+  position: fixed;
+  background-color: white;
+  height: 100%;
+  width: 0;
+  overflow-x: hidden;
+  transition: 0.9s;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+.section-option {
+  background-color: #f1f5f8;
+}
+
+.section-option h1 {
+  color: #235275;
+  font-size: 25px;
+  font-family: "Montseart-Bold";
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  height: 184px;
+}
+
+.info-History{
+    width: 934px;
+    font-size: 18px;
+    color: #235275 !important;
+    font-weight: 500;
+}
+
+.divHistor{
+    display: flex;
+    justify-content: center;
+}
+
+.top-main-section-two h1{
+    padding-top: 50px;
+}
+
+.navbar-section-two{
+    margin-bottom: 40px;
+}
+
+.noneProduct{
+    display: none;
+}
+
+.block-product{
+    display: block;
+}
+
+.noneSection{
+    display: none;
+}
+
+.product-ul li{
+    list-style: none;
+    font-weight: 400;
+    color: #235275;
+    font-size: 20px;
+    padding-top: 14px;
+}
+
+.product-ul p{
+    color: #222222;
+    font-size: 20px;
+    font-family: "Montseart-Bold";
+}
+
+.left-section-products input{
+    background-color: #F1F5F8;
+    color: #235275;
+    outline: none;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    &::-webkit-input-placeholder{
+        color: #235275;
+    }
+    margin-bottom: 40px;
+}
+
+.main-section-products{
+    padding-top: 40px;
+}
+
+.left-section-products{
+    width: 200px;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    height: 609px;
+}
+
+.box-product{
+    display: grid;
+    grid-template-columns: repeat(3, 310px);
+    column-gap: 15px;
+    row-gap: 40px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-section-products{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardProduct img{
+    width: 100%;
+}
+
+.info-section{
+  position: fixed;
+  height: 0;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.cardInfo{
+  display: flex;
+}
+
+.leftCard{
+  margin-right: 40px;
+}
+
+.leftCard img{
+  height: 100%;
+  width: 612px;
+  object-fit: contain;
+}
+
+.box-info{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.rightCard{
+  width: 512px;
+  height: 100%;
+}
+
+.rightCard p{
+  color: rgba(35, 82, 117, 1);
+  font-size: 14.5px;
+  margin-bottom: 23px;
+  font-family: "Montseart-Medium";
+}
+
+.rightCard h5{
+  color: rgba(35, 82, 117, 1);
+  font-family: "Montseart-Bold";
+  font-size: 18px;
+  margin-bottom: 23px;
+}
+
+.rightCard h4{
+  font-size: 22px;
+  color: rgba(35, 82, 117, 0.5);
+  margin-bottom: 23px;
+  font-family: "charm";
+}
+
+.rightCard h2{
+  font-size: 25px;
+  color: rgba(34, 34, 34, 0.84);
+  font-family: "Montseart-Bold";
+}
+
+.rightCard button{
+  background-color: rgba(186, 93, 44, 1);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-family: "Montseart-SemiBold";
+  width: 130px;
+  height: 35px;
+}
+
+.basket-container{
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 0;
+  right: 0;
+  overflow: hidden;
+  background-color: #F5F5F5;
+  z-index: 5;
+}
+
+.cover{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  background-color: #0000008F;
+  display: none;
+  z-index: 4;
+}
+
+.close-div p{
+  font-size: 38px;
+  color: #235275;
+  font-family: "Montseart-Bold";
+}
+
+.myBasket{
+  text-align: center;
+  font-family: "charm";
+  font-size: 32px;
+  color: #000000DE;
+  margin-bottom: 20px;
+}
+
+.myBasketAll{
+  height: 500px;
+  background-color: transparent;
+  overflow-y: scroll;
+}
+
+.bottom-section-basket button{
+  background-color: #BA5D2C;
+  color: white;
+  border-radius: 4px;
+  height: 42px;
+  font-size: 20px;
+  font-family: "Montseart-Bold";
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.max-width-cont{
+  max-width: 364px;
+  margin: auto;
+}
+
+.card-bag {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.divLeft {
+  width: 128px;
+  height: 90px;
+  margin-right: 16px;
+}
+
+.divLeft img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.del-bag-card {
+  font-family: "Montseart-Regular";
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: -7px;
+}
+
+.nameBag {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Montseart-Regular";
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.divRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 50%;
+}
+
+.priceBag {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Montseart-SemiBold";
+  font-size: 16px;
+}
+
+.div-count-towar{
+  display: flex;
+  align-items:center;
+  width: 69px;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.div-count-towar button{
+  width: 21px;
+  height: 21px;
+  background-color: transparent;
+  border:2px solid #BA5D2C;
+  color:#BA5D2C;
+  font-size: 14px;
+  border-radius:3px;
+  font-family: "Montseart-Bold";
+}
+
+.div-count-towar h1{
+  font-size: 18px;
+  color:#000000DE;
+}
+
+.range-container h3{
+  color: #222222;
+  font-size: 20px;
+  font-family: "Montseart-SemiBold";
+}
+
+.range-container span{
+  color: #235275;
+  font-size: 20px;
+  font-family: "Montseart-Regular";
+}
+
+.range-container input{
+  margin: 0;
+  padding: 12px;
+}
+
+.range-container{
+  padding-top: 40px;
+}
